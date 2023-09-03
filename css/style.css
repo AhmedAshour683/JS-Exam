@@ -1,0 +1,87 @@
+#overlaycon
+{
+    overflow: hidden !important;
+    cursor: pointer;
+}
+
+
+
+#overlay
+{
+    
+    transition-duration: 0.5s !important;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+#overlaycon:hover #overlay{
+    opacity: 1 !important;
+    top: 0 !important;
+}
+
+
+.open
+{
+    cursor: pointer;
+}
+
+.close
+{
+    cursor: pointer;
+    right: 110px;
+    top: 20px;
+}
+
+.side-menu
+{
+    position: fixed;
+    left: -176px;
+    top: 0;
+}
+
+
+/* .slide1{
+    margin-top: 200px;
+} */
+
+
+.fa-house-laptop{
+    font-size: 100px !important;
+    
+}
+
+.fa-utensils
+{
+    font-size: 100px !important;
+}
+
+#areaIcon
+{
+    cursor: pointer;
+}
+
+.search{
+    width: 45%;
+    margin-right: 20px;
+    margin-left: 30px;
+
+
+    
+}
+
+.search::placeholder { 
+    color: white;
+}
+
+.forsearch
+{
+   margin: auto;
+
+}
+
+.forsearch1
+{
+    
+    margin: auto;
+
+}
